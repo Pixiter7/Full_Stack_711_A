@@ -108,6 +108,20 @@ section h2 {
     font-weight: bold;
     text-decoration: none;
 }
+.project-card a:hover {
+    color: #e0d3c4;
+    transition: 0.3s ease-in-out;
+}
+.project-card:hover{
+    transform: translateY(-5px);
+    transition: 0.5s ease-in-out;
+    background-color: #3a2300;
+    color: #e0d3c4;
+}
+.project-card:hover a{
+    transition: 0.5s ease-in-out;
+    color: #e0d3c4;
+}
 
 /* --------------------TABLE-------------------- */
 table {
