@@ -168,7 +168,12 @@ button:hover {
     color: #e0d3c4;
     transition: 0.2s ease-in;
 }
+button:active {
+    transform: scale(0.98);
+    background: #e0d3c4;
+    color: #3a2300;
 
+}
 /* --------------------FOOTER-------------------- */
 footer {
     background: #e0d3c4;
