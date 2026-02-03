@@ -22,7 +22,7 @@ body::before {
     position: fixed;
     inset: 0;
     background: url('./me.jpeg') center/cover no-repeat;
-    opacity: 0.23;
+    opacity: 0.3;
     z-index: -1;
 }
 
@@ -52,6 +52,8 @@ body {
 nav {
     background: #4c3513;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0px;
 }
 
 nav .container {
