@@ -1,0 +1,92 @@
+body{
+font-family: Arial;
+background:#f4f6f8;
+display:flex;
+justify-content:center;
+margin-top:50px;
+}
+
+.container{
+width:500px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+text-align:center;
+}
+
+.task-input{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+.task-input input{
+flex:1;
+padding:8px;
+}
+
+.task-input select{
+padding:8px;
+}
+
+.task-input button{
+padding:8px 15px;
+background:#007bff;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.filters{
+display:flex;
+justify-content:space-between;
+margin-bottom:15px;
+}
+
+.filters button{
+padding:6px 10px;
+border:none;
+background:#ddd;
+cursor:pointer;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px;
+border-bottom:1px solid #eee;
+}
+
+.completed{
+text-decoration:line-through;
+color:gray;
+}
+
+.priority-low{
+color:green;
+}
+
+.priority-medium{
+color:orange;
+}
+
+.priority-high{
+color:red;
+}
+
+.task-actions button{
+margin-left:5px;
+border:none;
+cursor:pointer;
+padding:4px 8px;
+}
